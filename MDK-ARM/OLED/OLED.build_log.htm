@@ -1,0 +1,1463 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: jm ASUS
+jm
+User-based license: Keil MDK Community (non-commercial free of charge)
+Valid until: Jun 1 2033. Cached until: Nov 15 2026
+ 
+Tool Versions:
+Toolchain:       Keil MDK Community (non-commercial free of charge  Version: 5.39.0.0
+Toolchain Path:  E:\keil5MDK\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.21
+Assembler:       Armasm.exe V6.21
+Linker/Locator:  ArmLink.exe V6.21
+Library Manager: ArmAr.exe V6.21
+Hex Converter:   FromElf.exe V6.21
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      UL2CM3.DLL V1.164.9.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+E:\keil5exercise\I2C\MPU6050_edgeimpulse\MDK-ARM\OLED.uvprojx
+Project File Date:  11/09/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.21', folder: 'E:\keil5MDK\ARM\ARMCLANG\Bin'
+Rebuild target 'OLED'
+Note: source file 'E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/porting/open-cmsis/debug_log.cpp' - object file renamed from 'OLED\debug_log.o' to 'OLED\debug_log_1.o'.
+Note: source file 'E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/porting/open-cmsis/ei_classifier_porting.cpp' - object file renamed from 'OLED\ei_classifier_porting.o' to 'OLED\ei_classifier_porting_1.o'.
+Note: source file 'E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/tensorflow/lite/core/api/common.cpp' - object file renamed from 'OLED\common.o' to 'OLED\common_1.o'.
+Note: source file 'E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/tensor_utils.cpp' - object file renamed from 'OLED\tensor_utils.o' to 'OLED\tensor_utils_1.o'.
+Note: source file 'E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/tree_ensemble_classifier.cpp' - object file renamed from 'OLED\tree_ensemble_classifier.o' to 'OLED\tree_ensemble_classifier_1.o'.
+compiling OLED_hal_font.c...
+compiling I2C_mpu.c...
+compiling usart_transmit.c...
+assembling startup_stm32f103xb.s...
+compiling main.c...
+compiling OLED_hal.c...
+compiling gpio.c...
+compiling tim.c...
+compiling i2c.c...
+compiling usart.c...
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_exti.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_i2c.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling BayesFunctions.c...
+compiling stm32f1xx_hal_uart.c...
+compiling BasicMathFunctionsF16.c...
+compiling BasicMathFunctions.c...
+compiling BayesFunctionsF16.c...
+compiling stm32f1xx_hal_tim.c...
+compiling ComplexMathFunctions.c...
+compiling ComplexMathFunctionsF16.c...
+compiling ControllerFunctions.c...
+compiling CommonTablesF16.c...
+compiling DistanceFunctionsF16.c...
+compiling DistanceFunctions.c...
+compiling FastMathFunctionsF16.c...
+compiling CommonTables.c...
+compiling FastMathFunctions.c...
+compiling InterpolationFunctionsF16.c...
+compiling InterpolationFunctions.c...
+compiling FilteringFunctionsF16.c...
+compiling QuaternionMathFunctions.c...
+compiling SVMFunctions.c...
+compiling SVMFunctionsF16.c...
+compiling MatrixFunctionsF16.c...
+compiling StatisticsFunctionsF16.c...
+compiling SupportFunctionsF16.c...
+compiling SupportFunctions.c...
+compiling StatisticsFunctions.c...
+compiling arm_nn_activation_s16.c...
+compiling MatrixFunctions.c...
+compiling WindowFunctions.c...
+compiling TransformFunctionsF16.c...
+compiling arm_relu6_s8.c...
+compiling arm_relu_q15.c...
+compiling arm_relu_q7.c...
+compiling arm_elementwise_add_s16.c...
+compiling arm_elementwise_mul_s16.c...
+compiling arm_elementwise_add_s8.c...
+compiling FilteringFunctions.c...
+compiling arm_elementwise_mul_s16_s8.c...
+compiling arm_elementwise_mul_s8.c...
+compiling arm_concatenation_s8_x.c...
+compiling arm_concatenation_s8_w.c...
+compiling arm_concatenation_s8_y.c...
+compiling arm_concatenation_s8_z.c...
+compiling arm_convolve_1_x_n_s8.c...
+compiling arm_convolve_1x1_s8.c...
+compiling arm_convolve_1x1_s8_fast.c...
+compiling arm_convolve_get_buffer_sizes_s16.c...
+compiling arm_convolve_fast_s16.c...
+compiling arm_convolve_get_buffer_sizes_s8.c...
+compiling arm_convolve_s16.c...
+compiling arm_convolve_s8.c...
+compiling arm_convolve_wrapper_s16.c...
+compiling arm_convolve_wrapper_s8.c...
+compiling arm_depthwise_conv_fast_s16.c...
+compiling TransformFunctions.c...
+compiling arm_depthwise_conv_get_buffer_sizes_s16.c...
+compiling arm_depthwise_conv_3x3_s8.c...
+compiling arm_depthwise_conv_get_buffer_sizes_s8.c...
+compiling arm_depthwise_conv_s16.c...
+compiling arm_depthwise_conv_s8_opt.c...
+compiling arm_depthwise_conv_wrapper_s8.c...
+compiling arm_depthwise_conv_wrapper_s16.c...
+compiling arm_depthwise_conv_s8.c...
+compiling arm_nn_depthwise_conv_s8_core.c...
+compiling arm_nn_mat_mult_kernel_s8_s16.c...
+compiling arm_nn_mat_mult_s8.c...
+compiling arm_fully_connected_get_buffer_sizes_s8.c...
+compiling arm_fully_connected_get_buffer_sizes_s16.c...
+compiling arm_fully_connected_s8.c...
+compiling arm_fully_connected_s16.c...
+compiling arm_lstm_unidirectional_s8_s16.c...
+compiling arm_nn_depthwise_conv_nt_t_padded_s8.c...
+compiling arm_nn_depthwise_conv_nt_t_s16.c...
+compiling arm_nn_depthwise_conv_nt_t_s8.c...
+compiling arm_nn_lstm_calculate_gate_s8_s16.c...
+compiling arm_nn_lstm_update_cell_state_s16.c...
+compiling arm_nn_lstm_step_s8_s16.c...
+compiling arm_nn_lstm_update_output_s8_s16.c...
+compiling arm_nn_mat_mul_core_1x_s8.c...
+compiling arm_nn_mat_mul_core_4x_s8.c...
+compiling arm_nn_mat_mul_kernel_s16.c...
+compiling arm_nn_vec_mat_mult_t_s16.c...
+compiling arm_nn_vec_mat_mul_result_acc_s8.c...
+compiling arm_nn_mat_mult_nt_t_s8.c...
+compiling arm_nn_vec_mat_mult_t_s8.c...
+compiling arm_nn_vec_mat_mult_t_svdf_s8.c...
+compiling arm_nntables.c...
+compiling arm_q7_to_q15_with_offset.c...
+compiling arm_avgpool_get_buffer_sizes_s16.c...
+compiling arm_avgpool_get_buffer_sizes_s8.c...
+compiling arm_avgpool_s8.c...
+compiling arm_avgpool_s16.c...
+compiling arm_max_pool_s16.c...
+compiling arm_reshape_s8.c...
+compiling arm_max_pool_s8.c...
+compiling arm_svdf_s8.c...
+compiling arm_svdf_state_s16_s8.c...
+compiling arm_nn_softmax_common_s8.c...
+compiling arm_softmax_s8.c...
+compiling arm_softmax_s8_s16.c...
+compiling arm_softmax_s16.c...
+compiling fast-dct-fft.cpp...
+compiling arm_softmax_u8.c...
+compiling debug_log.cpp...
+compiling processing.cpp...
+compiling ei_classifier_porting.cpp...
+compiling debug_log.cpp...
+compiling kiss_fftr.cpp...
+compiling common.c...
+compiling kiss_fft.cpp...
+compiling error_reporter.cpp...
+compiling common.cpp...
+compiling ei_classifier_porting.cpp...
+compiling tensor_utils.cpp...
+compiling memory.cpp...
+compiling portable_tensor_utils.cpp...
+compiling quantization_util.cpp...
+compiling ei_infer.cpp...
+compiling op_resolver.cpp...
+compiling tensor_utils.cpp...
+compiling tree_ensemble_classifier.cpp...
+compiling kernel_util_lite.cpp...
+compiling reference_portable_tensor_utils.cpp...
+compiling all_ops_resolver.cpp...
+compiling fake_micro_context.cpp...
+compiling flatbuffer_conversions_bridge.cpp...
+compiling activations.cpp...
+compiling flatbuffer_conversions.cpp...
+compiling activations_common.cpp...
+compiling add_n.cpp...
+compiling flatbuffer_utils.cpp...
+compiling arg_min_max.cpp...
+compiling add_common.cpp...
+compiling batch_matmul.cpp...
+compiling add.cpp...
+compiling batch_to_space_nd.cpp...
+compiling broadcast_args.cpp...
+compiling broadcast_to.cpp...
+compiling assign_variable.cpp...
+compiling ceil.cpp...
+compiling circular_buffer.cpp...
+compiling cast.cpp...
+compiling circular_buffer_common.cpp...
+compiling complex_abs.cpp...
+compiling call_once.cpp...
+compiling conv.cpp...
+compiling conv_common.cpp...
+compiling concatenation.cpp...
+compiling cumsum.cpp...
+compiling comparisons.cpp...
+compiling depth_to_space.cpp...
+compiling depthwise_conv.cpp...
+compiling depthwise_conv_common.cpp...
+compiling dequantize.cpp...
+compiling dequantize_common.cpp...
+compiling div.cpp...
+compiling detection_postprocess.cpp...
+compiling elementwise.cpp...
+compiling elu.cpp...
+compiling ethosu.cpp...
+compiling exp.cpp...
+compiling expand_dims.cpp...
+compiling floor.cpp...
+compiling fill.cpp...
+compiling floor_div.cpp...
+compiling floor_mod.cpp...
+compiling fully_connected.cpp...
+compiling fully_connected_common.cpp...
+compiling gather.cpp...
+compiling gather_nd.cpp...
+compiling hard_swish.cpp...
+compiling hard_swish_common.cpp...
+compiling kernel_runner.cpp...
+compiling l2_pool_2d.cpp...
+compiling leaky_relu.cpp...
+compiling l2norm.cpp...
+compiling leaky_relu_common.cpp...
+compiling if.cpp...
+compiling kernel_util_micro.cpp...
+compiling log_softmax.cpp...
+compiling logical.cpp...
+compiling logical_common.cpp...
+compiling mli_interface.cpp...
+compiling logistic.cpp...
+compiling mli_slicers.cpp...
+compiling logistic_common.cpp...
+compiling micro_tensor_utils.cpp...
+compiling maximum_minimum.cpp...
+compiling lstm_eval.cpp...
+compiling mirror_pad.cpp...
+compiling neg.cpp...
+compiling pack.cpp...
+compiling pooling.cpp...
+compiling pad.cpp...
+compiling pooling_common.cpp...
+compiling mul.cpp...
+compiling prelu.cpp...
+compiling mul_common.cpp...
+compiling prelu_common.cpp...
+compiling quantize.cpp...
+compiling quantize_common.cpp...
+compiling real.cpp...
+compiling reduce.cpp...
+compiling resize_bilinear.cpp...
+compiling reduce_common.cpp...
+compiling resize_nearest_neighbor.cpp...
+compiling read_variable.cpp...
+compiling scratch_buf_mgr.cpp...
+compiling scratch_buffers.cpp...
+compiling rfft2d.cpp...
+compiling round.cpp...
+compiling reshape.cpp...
+compiling scatter_nd.cpp...
+compiling select.cpp...
+compiling slice.cpp...
+compiling softmax.cpp...
+compiling softmax_common.cpp...
+compiling space_to_batch_nd.cpp...
+compiling space_to_depth.cpp...
+compiling shape.cpp...
+compiling split.cpp...
+compiling split_v.cpp...
+compiling squared_difference.cpp...
+compiling sub_common.cpp...
+compiling strided_slice.cpp...
+compiling sub.cpp...
+compiling svdf.cpp...
+compiling svdf_common.cpp...
+compiling squeeze.cpp...
+compiling tanh.cpp...
+compiling tile.cpp...
+compiling transpose.cpp...
+compiling transpose_conv.cpp...
+compiling tree_ensemble_classifier.cpp...
+compiling unidirectional_sequence_lstm.cpp...
+compiling unpack.cpp...
+compiling greedy_memory_planner.cpp...
+compiling linear_memory_planner.cpp...
+compiling non_persistent_buffer_planner_shim.cpp...
+compiling zeros_like.cpp...
+compiling var_handle.cpp...
+compiling while.cpp...
+compiling micro_error_reporter.cpp...
+compiling memory_helpers.cpp...
+compiling micro_context.cpp...
+compiling micro_profiler.cpp...
+compiling micro_log.cpp...
+compiling micro_string.cpp...
+compiling micro_time.cpp...
+compiling topk_v2.cpp...
+compiling micro_allocation_info.cpp...
+compiling micro_allocator.cpp...
+compiling mock_micro_graph.cpp...
+compiling micro_graph.cpp...
+compiling op_resolver_bridge.cpp...
+compiling micro_interpreter.cpp...
+compiling recording_single_arena_buffer_allocator.cpp...
+compiling micro_resource_variable.cpp...
+compiling system_setup.cpp...
+compiling micro_utils.cpp...
+compiling non_persistent_arena_buffer_allocator.cpp...
+compiling schema_utils.cpp...
+compiling test_helper_custom_ops.cpp...
+compiling persistent_arena_buffer_allocator.cpp...
+compiling tflite_learn_1159408_3_compiled.cpp...
+compiling recording_micro_allocator.cpp...
+compiling single_arena_buffer_allocator.cpp...
+compiling test_helpers.cpp...
+linking...
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching dnaninf.o(x$fpl$dnaninf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_tim.o(.text.TIM_Base_SetConfig).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching softmax.o(.text._ZN6tflite12_GLOBAL__N_111SoftmaxEvalEP13TfLiteContextP10TfLiteNode).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching round.o(i.round).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_hex_int_ll_ptr.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching bigflt0.o(.constdata).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_uart.o(.text.UART_SetConfig).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL7bior2p8E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL7bior6p8E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL5coif3E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL3db9E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL7rbio2p8E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL7rbio6p8E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL4sym9E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN2ei5numpy21handle_fft_hw_failureEij).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN2ei8spectral7wavelet12dwt_featuresEPKfiPKciRNSt3__26vectorIfNS_7EiAllocIfEEEE).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN2ei5numpy4rfftEPKfjPfjj).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN2ei8spectral7feature15get_ratio_comboEi).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching main.o(.text.HAL_TIM_PeriodElapsedCallback).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNSt3__27__sort3B7v180000INS_17_ClassicAlgPolicyERZN2ei8spectral10processingL14find_fft_peaksEPNS2_9ei_matrixES6_fftE3$_0PNS4_11freq_peak_tEEEjT1_SB_SB_T0_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN2ei6signal7sosfilt3runEPKfjPf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fnaninf.o(x$fpl$fnaninf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching rt_memcpy_v6.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching init_alloc.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching lludiv10.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching common_1.o(.rodata.str1.1).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_i2c.o(.text.I2C_WaitOnMasterAddressFlagUntilTimeout).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching kernel_util_lite.o(.text._ZN6tflite32GetQuantizedConvolutionMultiplerEP13TfLiteContextPK12TfLiteTensorS4_PS2_Pd).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.text._ZN12_GLOBAL__N_131RequestScratchBufferInArenaImplEP13TfLiteContextjPi).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching algorithm.cpp.o(.text._ZNSt3__27__sort3B7v180000INS_17_ClassicAlgPolicyENS_6ranges4lessEPfEEjT1_S5_S5_T0_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching btod.o(CL$$btod_e2d).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL7bior3p7E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL3db8E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL7rbio3p7E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL4sym8E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN2ei8spectral7feature18get_start_stop_binEfjfPjS2_b).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching assert.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching strcmpv7m.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_fp_infnan.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.text._Z29tflite_learn_1159408_3_invokev).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_longlong_dec.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_uart.o(.text.UART_WaitOnFlagUntilTimeout).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching rt_memmove_w.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN2ei5numpy5stdevEPNS_9ei_matrixES2_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_dec.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching deqf.o(x$fpl$deqf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching dgeqf.o(x$fpl$dgeqf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching dleqf.o(x$fpl$dleqf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching statisticsfunctions.o(.text.arm_var_f32).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching quantization_util.o(.text._ZN6tflite18QuantizeMultiplierEdPiS0_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching i2c_mpu.o(.text.MPU6050_ReadData).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching gpio.o(.text.MX_GPIO_Init).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching usart.o(.text.HAL_UART_MspInit).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_tim_ex.o(.text.HAL_TIMEx_MasterConfigSynchronization).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching llsdiv.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ldexp.o(i.ldexp).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNSt3__26vectorIbN2ei7EiAllocIbEEEC2EjRKb).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN2ei8spectral7wavelet10get_filterILj8EEEvNSt3__25arrayINS4_IfXT_EEELj2EEERNS3_6vectorIfNS_7EiAllocIfEEEESB_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_i2c.o(.text.I2C_WaitOnRXNEFlagUntilTimeout).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching roundf.o(i.roundf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._Z26process_classification_f32P19ei_impulse_handle_tjjP19ei_impulse_result_tPvS3_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL7bior2p6E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL3db7E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL7rbio2p6E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL4sym7E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN2ei5numpy14power_spectrumEPfjS1_jt).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tim.o(.text.MX_TIM3_Init).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching algorithm.cpp.o(.text._ZNSt3__27__sort5B7v180000INS_17_ClassicAlgPolicyENS_6ranges4lessEPfEEvT1_S5_S5_S5_S5_T0_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_oct_int_ll.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNSt3__28__fill_nB7v180000ILb0ENS_6vectorIbN2ei7EiAllocIbEEEEEEvNS_14__bit_iteratorIT0_Lb0ELi0EEENS7_9size_typeE).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN2ei8spectral7wavelet10get_filterILj6EEEvNSt3__25arrayINS4_IfXT_EEELj2EEERNS3_6vectorIfNS_7EiAllocIfEEEESB_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_i2c.o(.text.I2C_WaitOnTXEFlagUntilTimeout).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_i2c.o(.text.I2C_WaitOnBTFFlagUntilTimeout).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching drleqf.o(x$fpl$drleqf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNSt3__28__fill_nB7v180000ILb1ENS_6vectorIbN2ei7EiAllocIbEEEEEEvNS_14__bit_iteratorIT0_Lb0ELi0EEENS7_9size_typeE).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN14SignalWithAxes8get_dataEjjPf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fully_connected_common.o(.text._ZN6tflite29CalculateOpDataFullyConnectedEP13TfLiteContext21TfLiteFusedActivation10TfLiteTypePK12TfLiteTensorS6_S6_PS4_PNS_20OpDataFullyConnectedE).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_hal.o(.text.I2C_SendByte).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching feqf.o(x$fpl$feqf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fgeqf.o(x$fpl$fgeqf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fleqf.o(x$fpl$fleqf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN12_GLOBAL__N_132ei_result_struct_timing_us_to_msEP19ei_impulse_result_t).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching algorithm.cpp.o(.text._ZNSt3__216__insertion_sortB7v180000INS_17_ClassicAlgPolicyENS_6ranges4lessEPfEEvT1_S5_T0_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_io.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN2ei5numpy8linspaceEffjPf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching rt_memcpy_w.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tan.o(i.tan).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching retnan.o(x$fpl$retnan).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fflush.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching main.o(.text.SystemClock_Config).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNSt3__27__sort4B7v180000INS_17_ClassicAlgPolicyERZN2ei8spectral10processingL14find_fft_peaksEPNS2_9ei_matrixES6_fftE3$_0PNS4_11freq_peak_tEEEvT1_SB_SB_SB_T0_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_tim.o(.text.HAL_TIM_Base_Start_IT).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching d2f.o(x$fpl$d2f).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN12_GLOBAL__N_117ei_aligned_callocEjj).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL7bior3p5E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL7bior5p5E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL5coif2E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL3db6E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL7rbio3p5E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL7rbio5p5E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL4sym6E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNSt3__26vectorIfN2ei7EiAllocIfEEE7reserveEj).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_rcc.o(.text.HAL_RCC_GetSysClockFreq).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching kernel_util_micro.o(.text._ZN6tflite5micro22MakeUnpackedInt4TensorEP13TfLiteContextiPK16TfLiteEvalTensor).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching frnd.o(x$fpl$frnd).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tan_i.o(.constdata).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching btod.o(CL$$btod_d2e_norm_op1).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching i2c.o(.text.HAL_I2C_MspInit).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_uart.o(.text.HAL_UART_Init).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching micro_allocator.o(.text._ZN6tflite14MicroAllocator27RequestScratchBufferInArenaEjiPi).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching h1_alloc.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching dfix.o(x$fpl$dfix).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching scalbn.o(x$fpl$scalbn).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text.run_inference).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching kiss_fft.o(.text.kiss_fft_stride).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching dfixu.o(x$fpl$dfixu).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching algorithm.cpp.o(.text._ZNSt3__27__sort4B7v180000INS_17_ClassicAlgPolicyENS_6ranges4lessEPfEEvT1_S5_S5_S5_T0_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_tim.o(.text.HAL_TIM_Base_Init).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching frexp.o(i.frexp).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN2ei8spectral10processingL13subtract_meanEPNS_9ei_matrixE).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN2ei5numpy4meanEPNS_9ei_matrixES2_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN2ei5numpy3rmsEPNS_9ei_matrixES2_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_cortex.o(.text.HAL_NVIC_SetPriority).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching f2d.o(x$fpl$f2d).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN2ei8spectral7wavelet10get_filterILj4EEEvNSt3__25arrayINS4_IfXT_EEELj2EEERNS3_6vectorIfNS_7EiAllocIfEEEESB_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching statisticsfunctions.o(.text.arm_rms_f32).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching dcmp.o(x$fpl$fcmp).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fcmp.o(x$fpl$fcmp).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_str.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL7bior1p5E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL7bior2p4E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL7bior4p4E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL3db5E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL7rbio1p5E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL7rbio2p4E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL7rbio4p4E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZN2ei8spectralL4sym5E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal.o(.text.HAL_InitTick).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_uart.o(.text.UART_EndRxTransfer).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.text._Z28tflite_learn_1159408_3_resetPFvPvE).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g012tensor_data1E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g012tensor_data4E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching defsig_rtmem_inner.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_hal.o(.text.OLED_ShowChar).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching h1_free.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching rt_memclr_w.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_pad.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching common_1.o(.rodata..Lswitch.table.TfLiteTypeGetName).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching sqrt.o(i.sqrt).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching scalbnf.o(x$fpl$scalbnf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fclose.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_stackheap_outer.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _c16rtomb.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching frexpf.o(i.frexpf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching btod.o(CL$$btod_d2e_denorm_low).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching setvbuf.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tim.o(.text.HAL_TIM_Base_MspInit).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching rt_memclr.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_msp.o(.text.HAL_MspInit).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching cxa_finalize.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ftell.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching startup_stm32f103xb.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNSt3__225__throw_bad_function_callB7v180000Ev).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching i2c.o(.text.MX_I2C2_Init).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching logf.o(.constdata).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _sgetc.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_hal.o(.text.I2C_Start).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fully_connected_common.o(.text._ZN6tflite25FullyConnectedParamsFloatE21TfLiteFusedActivation).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching strlen.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ffixu.o(x$fpl$ffixu).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching btod.o(CL$$btod_d2e).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN2ei5numpy13software_rfftEPfPNS_13fft_complex_tEjj).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching usart.o(.text.MX_USART1_UART_Init).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching matrixfunctions.o(.text.arm_mat_trans_f32).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching statisticsfunctions.o(.text.arm_mean_f32).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_hal.o(.text.OLED_Clear).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN2ei8spectral7wavelet10get_filterILj2EEEvNSt3__25arrayINS4_IfXT_EEELj2EEERNS3_6vectorIfNS_7EiAllocIfEEEESB_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching portable_tensor_utils.o(.text._ZN6tflite12tensor_utils23UnpackDenseInt4IntoInt8EPKaiPa).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNSt3__26vectorIfN2ei7EiAllocIfEEEC2ERKS4_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN2ei8spectral7wavelet26get_percentile_from_sortedERKNSt3__26vectorIfNS_7EiAllocIfEEEEf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNKSt3__214default_deleteIA_NS_10unique_ptrIN2ei9ei_matrixENS0_IS3_EEEEEclB7v180000IS5_EENS7_20_EnableIfConvertibleIT_E4typeEPSA_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ffix.o(x$fpl$ffix).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching micro_context.o(.rodata._ZTVN6tflite12MicroContextE).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching h1_extend.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching defsig_rtred_inner.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_hal.o(.text.I2C_Stop).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN18ei_impulse_state_t14get_dsp_handleEj).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN18ei_impulse_state_t5resetEv).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching defsig_general.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.text._Z28tflite_learn_1159408_3_inputiP12TfLiteTensor).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.text._Z29tflite_learn_1159408_3_outputiP12TfLiteTensor).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fflt_clz.o(x$fpl$fflt).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching expf.o(.constdata).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching cos_i.o(.constdata).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_char_common.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching defsig_abrt_inner.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching trapv.o(x$fpl$trapveneer).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN2ei6signal7sosfilt4initEf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching dflt_clz.o(x$fpl$dflt).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching aeabi_atexit.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN18ei_impulse_state_tC2EPK10ei_impulse).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_cortex.o(.text.HAL_SYSTICK_Config).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching matrixfunctions.o(.text.arm_mat_scale_f32).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fully_connected.o(.text._ZN6tflite24Register_FULLY_CONNECTEDEv).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching softmax.o(.text._ZN6tflite16Register_SOFTMAXEv).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching init_aeabi.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching atof.o(i.atof).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching sqrtf.o(i.sqrtf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_char.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_wchar.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching lc_numeric_c.o(locale$$code).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching lc_ctype_c.o(locale$$code).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZL15get_signal_datajjPf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching basicmathfunctions.o(.text.arm_offset_f32).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching btod.o(CL$$btod_emul).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching btod.o(CL$$btod_ediv).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching btod.o(CL$$btod_emuld).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching btod.o(CL$$btod_edivd).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal.o(.text.HAL_Delay).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching common_1.o(.text.TfLiteTypeGetName).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g012tensor_data3E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching calloc.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_charcount.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_hex_int_ll_ptr.o(.constdata).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fpclassify.o(i.__ARM_fpclassify).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching sin_i.o(.constdata).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal.o(.text.HAL_Init).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_rcc.o(.text.HAL_RCC_GetPCLK1Freq).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_rcc.o(.text.HAL_RCC_GetPCLK2Freq).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching kiss_fftr.o(.rodata.str1.1).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching kernel_util_micro.o(.text._ZN6tflite5micro19GetMutableEvalInputEPK13TfLiteContextPK10TfLiteNodei).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching dflt_clz.o(x$fpl$dfltu).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fflt_clz.o(x$fpl$ffltu).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching new.cpp.o(.text._Znwj).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching llshl.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fpclassifyf.o(i.__ARM_fpclassifyf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_fp_hex.o(.constdata).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNSt3__26vectorIbN2ei7EiAllocIbEEE11__vallocateB7v180000Ej).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNSt3__26vectorIfN2ei7EiAllocIfEEE11__vallocateB7v180000Ej).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching micro_context.o(.text._ZN6tflite12MicroContext24AllocateTempTfLiteTensorEi).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_truncate.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_char_file.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_hal.o(.text.OLED_Write_Cmd).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_hal.o(.text.OLED_Write_Data).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNSt3__26vectorIfN2ei7EiAllocIfEEE6resizeEj).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.text._ZN12_GLOBAL__N_120GetScratchBufferImplEP13TfLiteContexti).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.text._ZN12_GLOBAL__N_115EonMicroContext16GetScratchBufferEi).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fputs.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN12_GLOBAL__N_115ei_aligned_freeEPv).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZL34ei_postprocessing_blocks_1159408_1).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_cortex.o(.text.HAL_NVIC_SetPriorityGrouping).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_cortex.o(.text.HAL_NVIC_EnableIRQ).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_classifier_porting_1.o(.text._Z9ei_printfPKcz).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching micro_context.o(.text._ZN6tflite12MicroContextC2EPNS_14MicroAllocatorEPKNS_5ModelEPNS_10MicroGraphE).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching micro_context.o(.text._ZN6tflite12MicroContext23AllocateTempInputTensorEPK10TfLiteNodei).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching micro_context.o(.text._ZN6tflite12MicroContext24AllocateTempOutputTensorEPK10TfLiteNodei).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching micro_context.o(.text._ZN6tflite12MicroContext30AllocateTempIntermediateTensorEPK10TfLiteNodei).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching usart_transmit.o(.text.uart_send_str).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNKSt3__214default_deleteIN2ei9ei_matrixEEclB7v180000EPS2_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching kernel_util_micro.o(.text._ZN6tflite5micro14GetTensorShapeEPK16TfLiteEvalTensor).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching micro_context.o(.text._ZN6tflite25MicroContextReportOpErrorEP13TfLiteContextPKcz).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching verbose_abort.cpp.o(.text._ZNSt3__222__libcpp_verbose_abortEPKcz).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN2ei5numpy9transposeEPNS_9ei_matrixE).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fputc.o(i.fputc).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching lc_numeric_c.o(locale$$data).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _chval.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNSt3__24sortB7v180000INS_11__wrap_iterIPN2ei8spectral10processing11freq_peak_tEEEZNS4_L14find_fft_peaksEPNS2_9ei_matrixES9_fftE3$_0EEvT_SB_T0_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal.o(.text.HAL_IncTick).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZL25ei_config_graph_1159408_3).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZL28ei_learning_blocks_1159408_1).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_classifier_porting_1.o(.text._Z15ei_printf_floatf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching activations_common.o(.text._ZNK6tflite12RuntimeShape4DimsEi).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching kernel_util_micro.o(.text._ZN6tflite5micro10RegisterOpEPFPvP13TfLiteContextPKcjEPF12TfLiteStatusS3_P10TfLiteNodeESC_PFvS3_S1_E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching dcmpi.o(x$fpl$dcmpinf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fcmpi.o(x$fpl$fcmpinf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching assert_stdio.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching micro_context.o(.text._ZN6tflite12MicroContext13GetEvalTensorEi).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching abort.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching daddsub_clz.o(x$fpl$drsb).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ldexp.o(i.__support_ldexp).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _rserrno.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_classifier_porting_1.o(.text._Z16ei_read_timer_usv).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching kernel_util_micro.o(.text._ZN6tflite5micro13GetEvalOutputEPK13TfLiteContextPK10TfLiteNodei).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching faddsub_clz.o(x$fpl$frsb).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching algorithm.cpp.o(.text._ZNSt3__26__sortIRNS_6__lessIffEEPfEEvT0_S5_T_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZN19ei_impulse_handle_tD2Ev).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching isspace.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching exit.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching __printf_flags_ss_wp.o(.constdata).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZZNSt3__210__function8__policy14__create_emptyB7v180000EvE8__policy).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZZNSt3__210__function8__policy15__choose_policyB7v180000INS0_20__default_alloc_funcIZN2ei5numpy14welch_max_holdEPfjS6_jjjbEUlPvE_FvS7_EEEEEPKS1_NS_17integral_constantIbLb1EEEE8__policy).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZZNSt3__210__function8__policy15__choose_policyB7v180000INS0_20__default_alloc_funcIZN14SignalWithAxes10get_signalEvEUljjPfE_FijjS5_EEEEEPKS1_NS_17integral_constantIbLb1EEEE8__policy).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZZNSt3__210__function8__policy15__choose_policyB7v180000INS0_20__default_alloc_funcIPFvPvES5_EEEEPKS1_NS_17integral_constantIbLb1EEEE8__policy).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZZNSt3__210__function8__policy15__choose_policyB7v180000INS0_20__default_alloc_funcIPFijjPfES5_EEEEPKS1_NS_17integral_constantIbLb1EEEE8__policy).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching system_stm32f1xx.o(.rodata.AHBPrescTable).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g07inputs0E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g07inputs1E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g07inputs2E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching aeabi_memset4.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching dunder.o(i.__mathlib_dbl_underflow).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching rt_ctype_table.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching dcheck1.o(x$fpl$dcheck1).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching narrow.o(i.__mathlib_narrow).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching main.o(.text.ai_get_accel_sample).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNSt3__220__throw_length_errorB7v180000EPKc).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.text._ZN12_GLOBAL__N_115EonMicroContextD0Ev).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching __printf_wp.o(i._is_digit).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching defsig_abrt_outer.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching dunder.o(i.__mathlib_dbl_overflow).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_wrch.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching defsig_rtmem_outer.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching defsig_rtred_outer.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNKSt3__26vectorIbN2ei7EiAllocIbEEE20__throw_length_errorB7v180000Ev).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNKSt3__26vectorIfN2ei7EiAllocIfEEE20__throw_length_errorB7v180000Ev).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNKSt3__26vectorIN2ei8spectral10processing11freq_peak_tENS1_7EiAllocIS4_EEE20__throw_length_errorB7v180000Ev).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNSt3__210__function16__policy_invokerIFijjPfEE11__call_implB7v180000INS0_20__default_alloc_funcIPS3_S3_EEEEiPKNS0_16__policy_storageEjjS2_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_it.o(.text.TIM3_IRQHandler).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal.o(.text.HAL_GetTick).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fully_connected.o(.text._ZN6tflite12_GLOBAL__N_14InitEP13TfLiteContextPKcj).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching softmax.o(.text._ZN6tflite12_GLOBAL__N_14InitEP13TfLiteContextPKcj).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching memory_helpers.o(.text._ZN6tflite14AlignPointerUpEPhj).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching micro_context.o(.text._ZN6tflite12MicroContext27RequestScratchBufferInArenaEjPi).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g017tensor_dimension0E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g017tensor_dimension1E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g017tensor_dimension2E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g017tensor_dimension6E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g017tensor_dimension7E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g017tensor_dimension8E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g017tensor_dimension9E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching vprintf.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_exit.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching h1_init.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching libinit2.o(.ARM.Collect$$libinit$$00000014).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching dretinf.o(x$fpl$dretinf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching cxa_handlers.cpp.o(.text._ZSt15get_new_handlerv).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching dunder.o(i.__mathlib_dbl_invalid).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fcheck1.o(x$fpl$fcheck1).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching main.o(.text.Error_Handler).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_gpio.o(.text.HAL_GPIO_WritePin).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching cxa_atexit.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching vfprintf.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_ll.o(.ARM.Collect$$_printf_percent$$00000007).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fretinf.o(x$fpl$fretinf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching funder.o(i.__mathlib_flt_divzero).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching funder.o(i.__mathlib_flt_overflow).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching funder.o(i.__mathlib_flt_underflow).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching defsig_exit.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching system_stm32f1xx.o(.rodata.APBPrescTable).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching micro_context.o(.text._ZN6tflite12MicroContext24AllocatePersistentBufferEj).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching micro_context.o(.text._ZN6tflite12MicroContext16GetScratchBufferEi).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching micro_context.o(.text._ZN6tflite12MicroContext26DeallocateTempTfLiteTensorEP12TfLiteTensor).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g017tensor_dimension3E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g017tensor_dimension4E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g012tensor_data5E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g017tensor_dimension5E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g08outputs0E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g08outputs1E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g08outputs2E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g07inputs3E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g08outputs3E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching rt_errno_addr_intlibspace.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching libspace.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching rt_heap_descriptor_intlibspace.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_wctomb.o(.constdata).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching funder.o(i.__mathlib_flt_invalid).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching __rtentry2.o(.ARM.Collect$$rtentry$$0000000D).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching rt_ddtor_pointer_addr_intlibspace.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ferror.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching rt_locale_intlibspace.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fpconst.o(c$$dinf).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fpconst.o(c$$dmax).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching scanf2.o(x$fpl$scanf2).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNSt3__210__function16__policy_invokerIFvPvEE11__call_implB7v180000INS0_20__default_alloc_funcIZN2ei5numpy14welch_max_holdEPfjS9_jjjbEUlS2_E_S3_EEEEvPKNS0_16__policy_storageES2_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNSt3__210__function16__policy_invokerIFijjPfEE11__call_implB7v180000INS0_20__default_alloc_funcIZN14SignalWithAxes10get_signalEvEUljjS2_E_S3_EEEEiPKNS0_16__policy_storageEjjS2_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNSt3__210__function16__policy_invokerIFvPvEE11__call_implB7v180000INS0_20__default_alloc_funcIPS3_S3_EEEEvPKNS0_16__policy_storageES2_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching kiss_fft.o(.text.kiss_fft).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching heapauxi.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching istatus.o(x$fpl$ieeestatus).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching dunder.o(i.__mathlib_dbl_infnan).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching funder.o(i.__mathlib_flt_infnan).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching libshutdown2.o(.ARM.Collect$$libshutdown$$00000001).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtexit2.o(.ARM.Collect$$rtexit$$00000004).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZL34ei_learning_block_1159408_3_inputs).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.init_array).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.text._ZNSt3__210__function16__policy_invokerIFijjPfEE12__call_emptyB7v180000EPKNS0_16__policy_storageEjjS2_).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_it.o(.text.SysTick_Handler).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_classifier_porting_1.o(.text._Z29ei_run_impulse_check_canceledv).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_classifier_porting_1.o(.text._Z9ei_mallocj).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_classifier_porting_1.o(.text._Z9ei_callocjj).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_classifier_porting_1.o(.text._Z7ei_freePv).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fully_connected_common.o(.rodata._ZN6tflite26kFullyConnectedInputTensorE).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fully_connected_common.o(.rodata._ZN6tflite28kFullyConnectedWeightsTensorE).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fully_connected_common.o(.rodata._ZN6tflite25kFullyConnectedBiasTensorE).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching fully_connected_common.o(.rodata._ZN6tflite27kFullyConnectedOutputTensorE).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching kernel_util_micro.o(.text._ZN6tflite5micro12GetEvalInputEPK13TfLiteContextPK10TfLiteNodei).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching micro_context.o(.text._ZN6tflite12MicroContextD0Ev).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.text._ZN12_GLOBAL__N_115EonMicroContext24AllocatePersistentBufferEj).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.text._ZN12_GLOBAL__N_115EonMicroContext27RequestScratchBufferInArenaEjPi).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.text._ZN12_GLOBAL__N_115EonMicroContext24AllocateTempTfLiteTensorEi).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.text._ZN12_GLOBAL__N_115EonMicroContext13GetEvalTensorEi).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata.cst4).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g07opdata0E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g07opdata1E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g07opdata2E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.rodata._ZN12_GLOBAL__N_12g07opdata3E).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching new.cpp.o(.text._Znaj).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching new.cpp.o(.text._ZdlPv).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching new.cpp.o(.text._ZdaPv).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching hguard.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching printf1.o(x$fpl$printf1).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching printf2.o(x$fpl$printf2).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching scanf1.o(x$fpl$scanf1).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_io_names.o(.constdata).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_io_names.o(.constdata).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_io_names.o(.constdata).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_it.o(.text.NMI_Handler).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_it.o(.text.HardFault_Handler).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_it.o(.text.MemManage_Handler).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_it.o(.text.BusFault_Handler).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_it.o(.text.UsageFault_Handler).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_it.o(.text.SVC_Handler).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_it.o(.text.DebugMon_Handler).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_it.o(.text.PendSV_Handler).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_tim.o(.text.HAL_TIM_IC_CaptureCallback).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_tim.o(.text.HAL_TIM_OC_DelayElapsedCallback).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_tim.o(.text.HAL_TIM_PWM_PulseFinishedCallback).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_tim.o(.text.HAL_TIM_TriggerCallback).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_tim_ex.o(.text.HAL_TIMEx_CommutCallback).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_tim_ex.o(.text.HAL_TIMEx_BreakCallback).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching system_stm32f1xx.o(.text.SystemInit).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching micro_context.o(.text._ZN6tflite12MicroContextD2Ev).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching micro_log.o(.text._Z3LogPKcSt9__va_list).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching tflite_learn_1159408_3_compiled.o(.text._ZN12_GLOBAL__N_115EonMicroContext26DeallocateTempTfLiteTensorEP12TfLiteTensor).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching use_no_semi.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching ei_infer.o(.rodata._ZL35ei_output_tensors_indices_1159408_3).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching usenofp.o(x$fpl$usenofp).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching indicate_semi.o(.text).
+OLED\OLED.axf: Error: L6406E: No space in execution regions with .ANY selector matching maybetermalloc1.o(.text).
+OLED\OLED.axf: Error: L6407E: Sections of aggregate size 0x5d48 bytes could not fit into .ANY selector(s).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 439 error messages.
+"OLED\OLED.axf" - 439 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM::CMSIS@5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-DSP.1.18.0.pack
+                ARM::CMSIS-DSP@1.18.0
+                CMSIS Embedded Compute Library
+   * Component: DSP Variant: Source Version: 1.18.0
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-NN.4.1.0.pack
+                ARM::CMSIS-NN@4.1.0
+                CMSIS NN software library of efficient neural network kernels
+   * Component: NN Lib Version: 4.1.0
+
+Package Vendor: EdgeImpulse
+                
+                EdgeImpulse::EI-SDK@1.97.4
+                Edge Impulse SDK
+   * Component: SDK Version: 1.97.4
+
+Package Vendor: EdgeImpulse
+                
+                EdgeImpulse::MPU6050data_split@5.0.0
+                MPU6050data_split machine learning model
+   * Component: MPU6050data_split Version: 5.0.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil::STM32F1xx_DFP@2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_OLED
+  E:/keil5MDK/ARM/CMSIS-DSP/1.18.0/Include
+  E:/keil5MDK/ARM/CMSIS-DSP/1.18.0/PrivateInclude
+  E:/keil5MDK/ARM/CMSIS-DSP/1.18.0/dsppp/Include
+  E:/keil5MDK/ARM/CMSIS-NN/4.1.0/Include
+  E:/keil5MDK/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/classifier
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/classifier/inferencing_engines
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/classifier/postprocessing
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/classifier/postprocessing/alignment
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/classifier/postprocessing/tinyEKF
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/dsp
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/dsp/dct
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/dsp/dsp_engines
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/dsp/image
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/dsp/kissfft
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/dsp/spectral
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/dsp/speechpy
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/porting
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/tensorflow/lite
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/tensorflow/lite/c
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/tensorflow/lite/core/api
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/tensorflow/lite/core/c
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/custom
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/optimized
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/memory_planner
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/tensorflow/lite/schema
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/third_party/arc_mli_package/include
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/third_party/arc_mli_package/include/api
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/third_party/gemmlowp/fixedpoint
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/third_party/gemmlowp/internal
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/third_party/incbin
+  E:/keil5MDK/EdgeImpulse/EI-SDK/1.97.4/edgeimpulse/edge-impulse-sdk/third_party/ruy/ruy/profiler
+  E:/keil5MDK/EdgeImpulse/MPU6050data_split/5.0.0/edgeimpulse
+  E:/keil5MDK/EdgeImpulse/MPU6050data_split/5.0.0/edgeimpulse/model-parameters
+  E:/keil5MDK/EdgeImpulse/MPU6050data_split/5.0.0/edgeimpulse/tflite-model
+  E:/keil5MDK/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@5.6.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+
+   * Component: ARM::CMSIS:DSP&Source@1.18.0
+      Include file:  Include/arm_math_f16.h
+      Include file:  Include/arm_common_tables.h
+      Include file:  Include/arm_common_tables_f16.h
+      Include file:  Include/arm_const_structs.h
+      Include file:  Include/arm_math.h
+      Include file:  Include/arm_const_structs_f16.h
+      Source file:   Source/CommonTables/CommonTablesF16.c
+      Source file:   Source/ComplexMathFunctions/ComplexMathFunctions.c
+      Source file:   Source/SupportFunctions/SupportFunctions.c
+      Source file:   Source/FilteringFunctions/FilteringFunctionsF16.c
+      Source file:   Source/ComplexMathFunctions/ComplexMathFunctionsF16.c
+      Source file:   Source/SupportFunctions/SupportFunctionsF16.c
+      Source file:   Source/MatrixFunctions/MatrixFunctionsF16.c
+      Source file:   Source/ControllerFunctions/ControllerFunctions.c
+      Source file:   Source/InterpolationFunctions/InterpolationFunctions.c
+      Source file:   Source/DistanceFunctions/DistanceFunctionsF16.c
+      Source file:   Source/BayesFunctions/BayesFunctionsF16.c
+      Source file:   Source/FastMathFunctions/FastMathFunctionsF16.c
+      Source file:   Source/TransformFunctions/TransformFunctionsF16.c
+      Source file:   Source/SVMFunctions/SVMFunctionsF16.c
+      Source file:   Source/BayesFunctions/BayesFunctions.c
+      Source file:   Source/SVMFunctions/SVMFunctions.c
+      Source file:   Source/WindowFunctions/WindowFunctions.c
+      Source file:   Source/DistanceFunctions/DistanceFunctions.c
+      Source file:   Source/FilteringFunctions/FilteringFunctions.c
+      Source file:   Source/BasicMathFunctions/BasicMathFunctions.c
+      Source file:   Source/MatrixFunctions/MatrixFunctions.c
+      Source file:   Source/CommonTables/CommonTables.c
+      Source file:   Source/BasicMathFunctions/BasicMathFunctionsF16.c
+      Source file:   Source/TransformFunctions/TransformFunctions.c
+      Source file:   Source/QuaternionMathFunctions/QuaternionMathFunctions.c
+      Source file:   Source/InterpolationFunctions/InterpolationFunctionsF16.c
+      Source file:   Source/StatisticsFunctions/StatisticsFunctions.c
+      Source file:   Source/StatisticsFunctions/StatisticsFunctionsF16.c
+      Source file:   Source/FastMathFunctions/FastMathFunctions.c
+
+   * Component: ARM::CMSIS:NN Lib@4.1.0
+      Source file:   Source/ConvolutionFunctions/arm_convolve_wrapper_s16.c
+      Source file:   Source/ConvolutionFunctions/arm_convolve_get_buffer_sizes_s8.c
+      Source file:   Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.c
+      Source file:   Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.c
+      Include file:  Include/arm_nnsupportfunctions.h
+      Source file:   Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c
+      Source file:   Source/ConvolutionFunctions/arm_depthwise_conv_get_buffer_sizes_s8.c
+      Source file:   Source/ConvolutionFunctions/arm_convolve_s8.c
+      Source file:   Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c
+      Source file:   Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c
+      Source file:   Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.c
+      Source file:   Source/ConvolutionFunctions/arm_depthwise_conv_s8.c
+      Source file:   Source/ConvolutionFunctions/arm_convolve_fast_s16.c
+      Source file:   Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.c
+      Source file:   Source/ConvolutionFunctions/arm_nn_mat_mult_s8.c
+      Source file:   Source/ConvolutionFunctions/arm_convolve_get_buffer_sizes_s16.c
+      Source file:   Source/ConvolutionFunctions/arm_convolve_s16.c
+      Source file:   Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.c
+      Include file:  Include/arm_nnfunctions.h
+      Source file:   Source/ConvolutionFunctions/arm_depthwise_conv_s16.c
+      Include file:  Include/arm_nn_tables.h
+      Source file:   Source/ConvolutionFunctions/arm_depthwise_conv_get_buffer_sizes_s16.c
+      Source file:   Source/ConvolutionFunctions/arm_convolve_1x1_s8.c
+      Source file:   Source/ConvolutionFunctions/arm_depthwise_conv_fast_s16.c
+      Source file:   Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s16.c
+      Include file:  Include/arm_nn_math_types.h
+      Include file:  Include/arm_nn_types.h
+      Source file:   Source/PoolingFunctions/arm_max_pool_s8.c
+      Source file:   Source/BasicMathFunctions/arm_elementwise_mul_s16_s8.c
+      Source file:   Source/ActivationFunctions/arm_relu6_s8.c
+      Source file:   Source/ConcatenationFunctions/arm_concatenation_s8_y.c
+      Source file:   Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s16.c
+      Source file:   Source/SVDFunctions/arm_svdf_s8.c
+      Source file:   Source/ReshapeFunctions/arm_reshape_s8.c
+      Source file:   Source/ActivationFunctions/arm_relu_q15.c
+      Source file:   Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c
+      Source file:   Source/NNSupportFunctions/arm_nn_mat_mul_kernel_s16.c
+      Source file:   Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.c
+      Source file:   Source/BasicMathFunctions/arm_elementwise_add_s8.c
+      Source file:   Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c
+      Source file:   Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c
+      Source file:   Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.c
+      Source file:   Source/NNSupportFunctions/arm_nntables.c
+      Source file:   Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s16.c
+      Source file:   Source/PoolingFunctions/arm_max_pool_s16.c
+      Source file:   Source/PoolingFunctions/arm_avgpool_s8.c
+      Source file:   Source/PoolingFunctions/arm_avgpool_get_buffer_sizes_s16.c
+      Source file:   Source/PoolingFunctions/arm_avgpool_s16.c
+      Source file:   Source/ActivationFunctions/arm_relu_q7.c
+      Source file:   Source/ActivationFunctions/arm_nn_activation_s16.c
+      Source file:   Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_svdf_s8.c
+      Source file:   Source/BasicMathFunctions/arm_elementwise_mul_s16.c
+      Source file:   Source/BasicMathFunctions/arm_elementwise_add_s16.c
+      Source file:   Source/SVDFunctions/arm_svdf_state_s16_s8.c
+      Source file:   Source/ConcatenationFunctions/arm_concatenation_s8_x.c
+      Source file:   Source/PoolingFunctions/arm_avgpool_get_buffer_sizes_s8.c
+      Source file:   Source/BasicMathFunctions/arm_elementwise_mul_s8.c
+      Source file:   Source/ConcatenationFunctions/arm_concatenation_s8_w.c
+      Source file:   Source/ConcatenationFunctions/arm_concatenation_s8_z.c
+      Source file:   Source/NNSupportFunctions/arm_nn_lstm_update_output_s8_s16.c
+      Source file:   Source/SoftmaxFunctions/arm_nn_softmax_common_s8.c
+      Source file:   Source/NNSupportFunctions/arm_nn_lstm_step_s8_s16.c
+      Source file:   Source/SoftmaxFunctions/arm_softmax_s16.c
+      Source file:   Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.c
+      Source file:   Source/FullyConnectedFunctions/arm_fully_connected_s8.c
+      Source file:   Source/SoftmaxFunctions/arm_softmax_s8.c
+      Source file:   Source/SoftmaxFunctions/arm_softmax_u8.c
+      Source file:   Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.c
+      Source file:   Source/LSTMFunctions/arm_lstm_unidirectional_s8_s16.c
+      Source file:   Source/FullyConnectedFunctions/arm_fully_connected_s16.c
+      Source file:   Source/FullyConnectedFunctions/arm_fully_connected_get_buffer_sizes_s8.c
+      Source file:   Source/NNSupportFunctions/arm_nn_vec_mat_mul_result_acc_s8.c
+      Source file:   Source/FullyConnectedFunctions/arm_fully_connected_get_buffer_sizes_s16.c
+      Source file:   Source/NNSupportFunctions/arm_nn_lstm_calculate_gate_s8_s16.c
+      Source file:   Source/NNSupportFunctions/arm_nn_lstm_update_cell_state_s16.c
+      Source file:   Source/SoftmaxFunctions/arm_softmax_s8_s16.c
+
+   * Component: EdgeImpulse::EdgeImpulse:SDK@1.97.4
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/micro_tensor_utils.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_interface.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul_common.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/lstm_eval.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/leaky_relu.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/log_softmax.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu_common.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling_common.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected_common.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/kernel_runner.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/gather.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/if.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2_pool_2d.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/hard_swish_common.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/gather_nd.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/leaky_relu_common.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/kernel_util_micro.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical_common.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic_common.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/mirror_pad.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/hard_swish.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax_common.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/space_to_batch_nd.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/slice.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/split_v.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/scatter_nd.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce_common.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/squared_difference.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/squeeze.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub_common.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/select.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf_common.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/space_to_depth.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/tile.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/shape.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize_common.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_bilinear.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/read_variable.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/real.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/rfft2d.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/c/common.c
+      Source file:   edgeimpulse/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference_portable_tensor_utils.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/fake_micro_context.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/core/api/common.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/portable_tensor_utils.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/dsp/image/processing.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/custom/tree_ensemble_classifier.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/tensor_utils.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/dsp/memory.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/persistent_arena_buffer_allocator.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/schema_utils.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/non_persistent_arena_buffer_allocator.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_allocation_info.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/mock_micro_graph.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/single_arena_buffer_allocator.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/add_common.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations_common.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_resource_variable.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_context.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/system_setup.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/add_n.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/flatbuffer_conversions_bridge.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_log.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_graph.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/recording_single_arena_buffer_allocator.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/op_resolver_bridge.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/flatbuffer_utils.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/test_helper_custom_ops.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv_common.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/cast.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/batch_to_space_nd.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/complex_abs.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize_common.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/fill.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/batch_matmul.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor_div.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor_mod.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/broadcast_args.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/broadcast_to.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer_common.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/cumsum.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/depth_to_space.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/detection_postprocess.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/div.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/assign_variable.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/call_once.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/elu.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/exp.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv_common.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/expand_dims.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cpp
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/ei_run_classifier.h
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/zeros_like.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/topk_v2.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/porting/alif/ei_classifier_porting.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/transpose.cpp
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/ei_classifier_config.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/ei_data_normalization.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/ei_nms.h
+      Source file:   edgeimpulse/edge-impulse-sdk/template/debug_log.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/transpose_conv.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/porting/open-cmsis/ei_classifier_porting.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/template/ei_classifier_porting.cpp
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/ei_aligned_malloc.h
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/tree_ensemble_classifier.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/var_handle.cpp
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/ei_classifier_smooth.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/ei_constants.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/ei_model_types.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/ei_quantize.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/ei_classifier_types.h
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/unidirectional_sequence_lstm.cpp
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/ei_run_classifier_image.h
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/while.cpp
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/ei_print_results.h
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/non_persistent_buffer_planner_shim.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/porting/alif/debug_log.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cpp
+      Source file:   edgeimpulse/edge-impulse-sdk/porting/open-cmsis/debug_log.cpp
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/postprocessing/ei_performance_calibration.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/postprocessing/ei_postprocessing_ai_hub.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/ei_signal_with_range.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/inferencing_engines/tensorrt.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/postprocessing/ei_postprocessing_common.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/postprocessing/ei_postprocessing_thresholds.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/inferencing_engines/tflite_full.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/postprocessing/ei_postprocessing.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/postprocessing/ei_postprocessing_types.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/postprocessing/tinyEKF/tinyekf_custom.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/inferencing_engines/ceva_npn.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/inferencing_engines/drpai.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/inferencing_engines/ethos_linux.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/inferencing_engines/memryx.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/inferencing_engines/nordic_axon.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/inferencing_engines/engines.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/inferencing_engines/onnx_qaic.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/inferencing_engines/tflite_eon.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/inferencing_engines/onnx_tidl.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/inferencing_engines/tflite_helper.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/ei_run_dsp.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/inferencing_engines/vlm_connector.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/inferencing_engines/akida.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/inferencing_engines/tflite_tidl.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/postprocessing/ei_object_counting.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/postprocessing/ei_object_tracking.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/inferencing_engines/aton.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/inferencing_engines/tensaiflow.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/ei_signal_with_axes.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/inferencing_engines/tflite_micro.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/postprocessing/ei_object_tracking_sort.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/inferencing_engines/anomaly.h
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/dsp_engines/ei_arm_cmsis_dsp.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/builtin_op_data.h
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/ei_utils.h
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/dsp_engines/ei_ceva_dsp_fixed.h
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/kissfft/kiss_fft.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.h
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/ei_vector.h
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/kissfft/_kiss_fft_guts.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/builtin_ops.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/context_util.h
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/numpy_types.h
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/dsp_engines/ei_no_hw_dsp.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.h
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/kissfft/kiss_fftr.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/c/c_api_types.h
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/ei_flatten.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/core/c/builtin_op_data.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/portable_type_to_tflitetype.h
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/dct/fast-dct-fft.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/core/c/c_api_types.h
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/kissfft/kissfft.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/c/builtin_op_data.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/core/c/common.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/c/common.h
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/ei_alloc.h
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/ei_profiler.h
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/returntypes.h
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/dsp_engines/ei_ceva_dsp.h
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/dsp_engines/ei_esp_dsp.h
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/ei_dsp_handle.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reduce_common.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference_portable_tensor_utils.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference_portable_tensor_utils_impl.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/arg_min_max.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/add.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/batch_matmul.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/op_macros.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/tensor_ctypes.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/batch_to_space_nd.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/binary_function.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/strided_slice_logic.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/types.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/optimized/neon_check.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/add_n.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/runtime_shape.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/broadcast_args.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/portable_tensor.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/broadcast_to.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/ceil.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/comparisons.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/padding.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/custom/tree_ensemble_classifier.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/common.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/max.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/portable_tensor_utils.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/cppmath.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/compatibility.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/min.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/process_broadcast_shapes.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/reduce.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/div.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/cumsum.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/floor.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/floor_mod.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/lstm_cell.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/pad.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/prelu.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/elu.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/quantize.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/exp.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/floor_div.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/hard_swish.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/fill.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/leaky_relu.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/conv.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/depthwiseconv_float.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/depthwiseconv_uint8.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/log_softmax.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/concatenation.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/dequantize.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/l2normalization.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/fully_connected.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/depth_to_space.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/logistic.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/maximum_minimum.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/mul.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/neg.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/pooling.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/mean.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/scatter_nd.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/slice.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/resize_nearest_neighbor.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/tanh.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/depthwise_conv.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/sub.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/requantize.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/select.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/space_to_batch_nd.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/add.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/conv.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/transpose_conv.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/l2normalization.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/resize_bilinear.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/mul.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/transpose.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/pooling.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/space_to_depth.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/round.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/softmax.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/strided_slice.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/fully_connected.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/logistic.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_graph.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_op_resolver.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/transpose_conv.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/tanh.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/flatbuffer_conversions_bridge.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_resource_variable.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/fake_micro_context.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_log.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_string.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/mock_micro_graph.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/non_persistent_arena_buffer_allocator.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/op_resolver_bridge.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler_interface.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_mutable_op_resolver.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_time.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/persistent_arena_buffer_allocator.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/compatibility.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/debug_log.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/flatbuffer_utils.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/ibuffer_allocator.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_allocation_info.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_arena_constants.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_context.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/kernel_runner.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/system_setup.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/lstm_eval.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/lstm_eval_test.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/lstm_shared.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/micro_ops.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/recording_single_arena_buffer_allocator.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/test_helper_custom_ops.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/activation_utils.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer_flexbuffers_generated_data.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/single_arena_buffer_allocator.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/detection_postprocess_flexbuffers_generated_data.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/hard_swish.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_interpreter.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv_test.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/kernel_util.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/leaky_relu.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/arc_mli_package/include/mli_config.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/schema/schema_generated_full.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/schema/schema_generated.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/memory_plan_struct.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/arc_mli_package/include/mli_api.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/arc_mli_package/include/mli_types.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/arc_mli_package/include/api/mli_helpers_api.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/arc_mli_package/include/api/mli_kernels_api.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/micro_tensor_utils.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/micro_memory_planner.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/non_persistent_buffer_planner_shim.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_interface.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/tree_ensemble_classifier.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_tf_utils.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/schema/schema_utils.h
+      Include file:  edgeimpulse/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_function_specializations.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_default_allocator.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_verifier.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/flexbuffers.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_buffer_ref.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_buffer.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_vector_downward.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/gemmlowp/fixedpoint/fixedpoint_sse.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/arc_mli_package/include/api/mli_krn_maxpool_spec_api.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/gemmlowp/internal/detect_platform.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/incbin/incbin.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_array.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/flatbuffers.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/gemmlowp/fixedpoint/fixedpoint_neon.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_detached_buffer.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/gemmlowp/fixedpoint/fixedpoint.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/arc_mli_package/include/api/mli_mov_api.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_flatbuffer_builder.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_string.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_util.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_stl_emulation.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/arc_mli_package/include/api/mli_krn_avepool_spec_api.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/arc_mli_package/include/api/mli_krn_conv2d_spec_api.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/arc_mli_package/include/api/mli_krn_depthwise_conv2d_spec_api.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_struct.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_table.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_allocator.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_vector.h
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_base.h
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/speechpy/feature.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/speechpy/functions.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/numpy.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/speechpy/processing.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/config.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/spectral/fir_filter.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/spectral/signal.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/spectral/spectral.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/spectral/filters.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/postprocessing/alignment/rectangular_lsap.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/ei_eeg.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/returntypes.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/speechpy/speechpy.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/spectral/processing.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/spectral/feature.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/dsp_engines/ei_cmsis_numpy.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/spectral/wavelet.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/postprocessing/tinyEKF/tinyekf.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/memory.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/third_party/ruy/ruy/profiler/instrumentation.h
+      Include file:  edgeimpulse/edge-impulse-sdk/classifier/postprocessing/alignment/ei_alignment.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/spectral/wavelet_coeff.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/image/image.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/porting/ei_logging.h
+      Include file:  edgeimpulse/edge-impulse-sdk/porting/ei_classifier_porting.h
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/image/processing.hpp
+      Include file:  edgeimpulse/edge-impulse-sdk/dsp/ei_hr.hpp
+
+   * Component: EdgeImpulse::EdgeImpulse:model:MPU6050data_split@5.0.0
+      Include file:  edgeimpulse/model-parameters/model_metadata.h
+      Include file:  edgeimpulse/model-parameters/model_variables.h
+      Source file:   edgeimpulse/tflite-model/tflite_learn_1159408_3_compiled.cpp
+      Include file:  edgeimpulse/tflite-model/trained_model_ops_define.h
+      Include file:  edgeimpulse/tflite-model/tflite_learn_1159408_3_compiled.h
+Target not created.
+Build Time Elapsed:  00:02:44
+</pre>
+</body>
+</html>

@@ -1,0 +1,26 @@
+oled/svmfunctions.o: \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\SVMFunctions\SVMFunctions.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\SVMFunctions\arm_svm_linear_init_f32.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\PrivateInclude\arm_compiler_specific.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\dsp\svm_functions.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\arm_math_types.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\stdint.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\string.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\math.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\float.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\limits.h \
+  ..\Drivers\CMSIS\Include\cmsis_compiler.h \
+  ..\Drivers\CMSIS\Include\cmsis_armclang.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\arm_compat.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\arm_acle.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\arm_math_memory.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\dsp\none.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\dsp\utils.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\dsp\svm_defines.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\SVMFunctions\arm_svm_linear_predict_f32.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\SVMFunctions\arm_svm_polynomial_init_f32.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\SVMFunctions\arm_svm_polynomial_predict_f32.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\SVMFunctions\arm_svm_rbf_init_f32.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\SVMFunctions\arm_svm_rbf_predict_f32.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\SVMFunctions\arm_svm_sigmoid_init_f32.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\SVMFunctions\arm_svm_sigmoid_predict_f32.c

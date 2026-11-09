@@ -1,0 +1,29 @@
+oled/micro_profiler.o: \
+  E:\keil5MDK\EdgeImpulse\EI-SDK\1.97.4\edgeimpulse\edge-impulse-sdk\tensorflow\lite\micro\micro_profiler.cpp \
+  ..\edge-impulse-sdk\tensorflow\lite\micro\micro_profiler.h \
+  ..\edge-impulse-sdk\tensorflow\lite\micro\compatibility.h \
+  ..\edge-impulse-sdk\tensorflow\lite\micro\micro_profiler_interface.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\cstdint \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\__assert \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\__config \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\__verbose_abort \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\__availability \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\stdint.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\stdint.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\cinttypes \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\inttypes.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\inttypes.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\cstring \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\__type_traits\is_constant_evaluated.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\string.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\string.h \
+  ..\edge-impulse-sdk\tensorflow\lite\kernels\internal\compatibility.h \
+  ..\edge-impulse-sdk\tensorflow\lite\kernels\op_macros.h \
+  ..\edge-impulse-sdk\tensorflow\lite\micro\debug_log.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\cstdlib \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\stdlib.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\stdlib.h \
+  ..\edge-impulse-sdk\tensorflow\lite\micro\micro_log.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\cstdarg \
+  E:\keil5MDK\ARM\ARMCLANG\include\stdarg.h \
+  ..\edge-impulse-sdk\tensorflow\lite\micro\micro_time.h

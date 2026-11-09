@@ -1,0 +1,32 @@
+oled/distancefunctionsf16.o: \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\DistanceFunctions\DistanceFunctionsF16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\DistanceFunctions\arm_braycurtis_distance_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\PrivateInclude\arm_compiler_specific.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\dsp\distance_functions_f16.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\arm_math_types_f16.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\arm_math_types.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\stdint.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\string.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\math.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\float.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\limits.h \
+  ..\Drivers\CMSIS\Include\cmsis_compiler.h \
+  ..\Drivers\CMSIS\Include\cmsis_armclang.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\arm_compat.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\arm_acle.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\arm_math_memory.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\dsp\none.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\dsp\utils.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\dsp\statistics_functions_f16.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\dsp\basic_math_functions_f16.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\dsp\fast_math_functions_f16.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\dsp\fast_math_functions.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\dsp\basic_math_functions.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\DistanceFunctions\arm_canberra_distance_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\DistanceFunctions\arm_chebyshev_distance_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\DistanceFunctions\arm_cityblock_distance_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\DistanceFunctions\arm_correlation_distance_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\DistanceFunctions\arm_cosine_distance_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\DistanceFunctions\arm_euclidean_distance_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\DistanceFunctions\arm_jensenshannon_distance_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\DistanceFunctions\arm_minkowski_distance_f16.c

@@ -1,0 +1,192 @@
+/* USER CODE BEGIN Header */
+/**
+  ******************************************************************************
+  * @file           : main.c
+  * @brief          : Main program body
+  ******************************************************************************
+  */
+/* USER CODE END Header */
+/* Includes ------------------------------------------------------------------*/
+#include "main.h"
+#include "i2c.h"
+#include "tim.h"
+#include "usart.h"
+#include "gpio.h"
+
+/* USER CODE BEGIN Includes */
+#include "OLED_hal.h"
+#include "OLED_hal_font.h"
+#include "I2C_mpu.h"
+#include <stdio.h>
+#include "usart_transmit.h"
+
+/* USER CODE END Includes */
+
+/* Private typedef -----------------------------------------------------------*/
+/* USER CODE BEGIN PTD */
+
+/* USER CODE END PTD */
+
+/* Private define ------------------------------------------------------------*/
+/* USER CODE BEGIN PD */
+#define WINDOW_SIZE 200  // 200个点 @ 100Hz = 2秒一个窗口
+/* USER CODE END PD */
+
+/* Private macro -------------------------------------------------------------*/
+/* USER CODE BEGIN PM */
+
+/* USER CODE END PM */
+
+/* Private variables ---------------------------------------------------------*/
+
+/* USER CODE BEGIN PV */
+volatile int16_t accel_buf[WINDOW_SIZE][3];  // 三轴数据缓存
+volatile uint16_t buf_index = 0;
+volatile uint8_t  window_ready = 0;
+/* USER CODE END PV */
+
+/* Private function prototypes -----------------------------------------------*/
+void SystemClock_Config(void);
+/* USER CODE BEGIN PFP */
+// 声明推理函数
+void my_run_inference(void);
+/* USER CODE END PFP */
+
+/* Private user code ---------------------------------------------------------*/
+/* USER CODE BEGIN 0 */
+	
+/* USER CODE END 0 */
+
+/**
+  * @brief  The application entry point.
+  * @retval int
+  */
+int main(void)
+{
+  /* USER CODE BEGIN 1 */
+
+  /* USER CODE END 1 */
+
+  /* MCU Configuration--------------------------------------------------------*/
+  HAL_Init();
+  SystemClock_Config();
+
+  /* Initialize all configured peripherals */
+  MX_GPIO_Init();
+  MX_I2C2_Init();
+  MX_TIM3_Init();
+  MX_USART1_UART_Init();
+  
+  /* USER CODE BEGIN 2 */
+	OLED_Init();
+	OLED_Clear();
+	
+  MPU6050_Init(&hi2c2);
+	HAL_TIM_Base_Start_IT(&htim3);
+  /* USER CODE END 2 */
+
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+  while (1)
+  {
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+		
+		// OLED 依旧显示当前加速度（可选，如果觉得刷屏慢可以注释掉）
+		float AccX_g = MPU6050_Data.AccX / 16384.0f;
+		float AccY_g = MPU6050_Data.AccY / 16384.0f;
+		float AccZ_g = MPU6050_Data.AccZ / 16384.0f;
+
+		OLED_ShowNum(2,1, (int16_t)(AccX_g * 100), 5);
+		OLED_ShowNum(2,2, (int16_t)(AccY_g * 100), 5);
+		OLED_ShowNum(2,3, (int16_t)(AccZ_g * 100), 5);
+	
+		// 当攒满 200 个点时，启动 AI 推理！
+		if (window_ready == 1)
+		{
+			window_ready = 0; // 清除标志
+			
+			// 调用 AI 模型进行识别
+			my_run_inference(); 
+		}
+  }
+  /* USER CODE END 3 */
+}
+
+/**
+  * @brief System Clock Configuration
+  * @retval None
+  */
+void SystemClock_Config(void)
+{
+  RCC_OscInitTypeDef RCC_OscInitStruct = {0};
+  RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
+  RCC_OscInitStruct.HSEState = RCC_HSE_ON;
+  RCC_OscInitStruct.HSEPredivValue = RCC_HSE_PREDIV_DIV1;
+  RCC_OscInitStruct.HSIState = RCC_HSI_ON;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
+  RCC_OscInitStruct.PLL.PLLMUL = RCC_PLL_MUL9;
+  if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
+                              |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+  RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
+  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
+
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+}
+
+/* USER CODE BEGIN 4 */
+
+int16_t ai_get_accel_sample(uint32_t idx)
+{
+    return ((const int16_t *)accel_buf)[idx];
+}
+
+
+// 1. TIM3 中断回调（采集数据）
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+	if(htim == &htim3)
+	{
+		MPU6050_ReadData(&hi2c2);
+		if(window_ready == 0)
+		{
+			accel_buf[buf_index][0] = MPU6050_Data.AccX;
+			accel_buf[buf_index][1] = MPU6050_Data.AccY;
+			accel_buf[buf_index][2] = MPU6050_Data.AccZ;
+			buf_index++;
+			if(buf_index >= WINDOW_SIZE)
+			{
+				buf_index = 0;
+				window_ready = 1; // 通知主循环：200个点已满
+			}
+		}
+	}
+}
+
+/* USER CODE END 4 */
+
+/**
+  * @brief  This function is executed in case of error occurrence.
+  * @retval None
+  */
+void Error_Handler(void)
+{
+  __disable_irq();
+  while (1)
+  {
+  }
+}

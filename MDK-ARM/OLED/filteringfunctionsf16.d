@@ -1,0 +1,28 @@
+oled/filteringfunctionsf16.o: \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\FilteringFunctions\FilteringFunctionsF16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\FilteringFunctions\arm_fir_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\PrivateInclude\arm_compiler_specific.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\dsp\filtering_functions_f16.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\arm_math_types_f16.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\arm_math_types.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\stdint.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\string.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\math.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\float.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\limits.h \
+  ..\Drivers\CMSIS\Include\cmsis_compiler.h \
+  ..\Drivers\CMSIS\Include\cmsis_armclang.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\arm_compat.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\arm_acle.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\arm_math_memory.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\dsp\none.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\dsp\utils.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\FilteringFunctions\arm_fir_init_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\FilteringFunctions\arm_biquad_cascade_df1_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\FilteringFunctions\arm_biquad_cascade_df1_init_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\FilteringFunctions\arm_biquad_cascade_df2T_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\FilteringFunctions\arm_biquad_cascade_df2T_init_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\FilteringFunctions\arm_biquad_cascade_stereo_df2T_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\FilteringFunctions\arm_biquad_cascade_stereo_df2T_init_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\FilteringFunctions\arm_correlate_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\FilteringFunctions\arm_levinson_durbin_f16.c

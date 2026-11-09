@@ -1,0 +1,27 @@
+oled/basicmathfunctionsf16.o: \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\BasicMathFunctions\BasicMathFunctionsF16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\BasicMathFunctions\arm_abs_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\PrivateInclude\arm_compiler_specific.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\dsp\basic_math_functions_f16.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\arm_math_types_f16.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\arm_math_types.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\stdint.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\string.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\math.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\float.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\limits.h \
+  ..\Drivers\CMSIS\Include\cmsis_compiler.h \
+  ..\Drivers\CMSIS\Include\cmsis_armclang.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\arm_compat.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\arm_acle.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\arm_math_memory.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\dsp\none.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Include\dsp\utils.h \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\BasicMathFunctions\arm_add_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\BasicMathFunctions\arm_dot_prod_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\BasicMathFunctions\arm_mult_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\BasicMathFunctions\arm_negate_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\BasicMathFunctions\arm_offset_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\BasicMathFunctions\arm_scale_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\BasicMathFunctions\arm_sub_f16.c \
+  E:\keil5MDK\ARM\CMSIS-DSP\1.18.0\Source\BasicMathFunctions\arm_clip_f16.c

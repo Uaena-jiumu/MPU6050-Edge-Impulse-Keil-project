@@ -1,0 +1,19 @@
+oled/processing.o: \
+  E:\keil5MDK\EdgeImpulse\EI-SDK\1.97.4\edgeimpulse\edge-impulse-sdk\dsp\image\processing.cpp \
+  ..\edge-impulse-sdk\dsp\image\processing.hpp \
+  ..\edge-impulse-sdk\dsp\ei_utils.h \
+  ..\edge-impulse-sdk\porting\ei_classifier_porting.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\stdint.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\__config \
+  E:\keil5MDK\ARM\ARMCLANG\include\stdint.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\stdlib.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\stdlib.h \
+  ..\edge-impulse-sdk\dsp\returntypes.h \
+  ..\edge-impulse-sdk\dsp\returntypes.hpp \
+  ..\edge-impulse-sdk\porting\ei_logging.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\stdarg.h \
+  ..\edge-impulse-sdk\classifier\ei_constants.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\string.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\string.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\stddef.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\stddef.h

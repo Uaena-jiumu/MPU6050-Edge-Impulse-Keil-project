@@ -1,0 +1,21 @@
+oled/linear_memory_planner.o: \
+  E:\keil5MDK\EdgeImpulse\EI-SDK\1.97.4\edgeimpulse\edge-impulse-sdk\tensorflow\lite\micro\memory_planner\linear_memory_planner.cpp \
+  ..\edge-impulse-sdk\tensorflow\lite\micro\memory_planner\linear_memory_planner.h \
+  ..\edge-impulse-sdk\tensorflow\lite\micro\compatibility.h \
+  ..\edge-impulse-sdk\tensorflow\lite\micro\memory_planner\micro_memory_planner.h \
+  ..\edge-impulse-sdk\tensorflow\lite\c\common.h \
+  ..\edge-impulse-sdk\tensorflow\lite\core\c\common.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\stdarg.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\stdbool.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\__config \
+  E:\keil5MDK\ARM\ARMCLANG\include\stdbool.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\stddef.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\stddef.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\stdint.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\stdint.h \
+  ..\edge-impulse-sdk\tensorflow\lite\core\c\c_api_types.h \
+  ..\edge-impulse-sdk\tensorflow\lite\micro\micro_log.h \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\cstdarg \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\__assert \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\__verbose_abort \
+  E:\keil5MDK\ARM\ARMCLANG\include\libcxx\__availability
