@@ -1,0 +1,11 @@
+layer:
+  type: Edge Impulse layer
+  description: Edge Impulse SDK and model
+
+  packs:
+    - pack: EdgeImpulse::EI-SDK@1.97.4
+    - pack: EdgeImpulse::MPU6050data_split@5.0.0
+
+  components:
+    - component: EdgeImpulse::EdgeImpulse:SDK@1.97.4
+    - component: EdgeImpulse:model:MPU6050data_split@5.0.0
