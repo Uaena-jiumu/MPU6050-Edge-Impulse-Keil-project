@@ -20,8 +20,16 @@ typedef struct
     int16_t GyroZ;
     int16_t Temp;
 }MPU6050_DataTypeDef;
-
 extern MPU6050_DataTypeDef MPU6050_Data;
+
+
+typedef struct {
+    int16_t x;
+    int16_t y;
+    int16_t z;
+} AccSample_t;
+
+
 
 /* º¯ÊıÉùÃ÷ */
 uint8_t MPU6050_Init(I2C_HandleTypeDef *hi2c);

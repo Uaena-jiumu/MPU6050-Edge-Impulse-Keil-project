@@ -28,7 +28,7 @@ uint8_t MPU6050_WriteReg(I2C_HandleTypeDef *hi2c, uint8_t regAddr, uint8_t data)
  */
 uint8_t MPU6050_ReadReg(I2C_HandleTypeDef *hi2c, uint8_t regAddr, uint8_t *pData, uint16_t len)
 {
-    if(HAL_I2C_Mem_Read(hi2c, MPU6050_ADDR, regAddr, I2C_MEMADD_SIZE_8BIT, pData, len, 5) == HAL_OK)
+    if(HAL_I2C_Mem_Read(hi2c, MPU6050_ADDR, regAddr, I2C_MEMADD_SIZE_8BIT, pData, len, 100) == HAL_OK)
     {
         return 0;
     }

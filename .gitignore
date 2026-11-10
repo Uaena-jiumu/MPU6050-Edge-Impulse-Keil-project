@@ -1,0 +1,31 @@
+# Keil / uVision build outputs
+MDK-ARM/OLED/
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lnp
+*.dep
+*.iex
+*.build_log.htm
+*.htm
+*.bak
+
+# uVision per-user files
+*.uvguix.*
+*.uvoptx
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
