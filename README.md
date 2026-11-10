@@ -47,3 +47,4 @@ Edge Impulse 格式对齐：在切分的同时，自动为每一行数据注入�
 性能与工程决策（果断止损）：经过严谨评估，F103 (Cortex-M3) 既无硬件 FPU（浮点运算单元），更缺乏 DSP/NPU 等 AI 向量加速指令。即便通过极限压缩将代码勉强塞进 64KB Flash，纯软件跑推理的延迟和内存开销也毫无实际应用价值。
 最终方案：为了不陷入无意义的工具链内耗，果断停止在 F103 上的强行部署。结合现有需求，将后续的 TinyML 硬件目标转向自带向量指令扩展与更大内存（PSRAM）的 ESP32-S3，以构建真正具备实用价值的端侧 AI 系统。
 
+<img width="1279" height="1706" alt="769120176ab522b34fed613c664051fe" src="https://github.com/user-attachments/assets/26d7dbf4-aa91-4368-b9c4-7924f582cdd7" />
